@@ -1,0 +1,139 @@
+https://www.jbr-restaurants.com/welcomeletter
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Restaurants & Bars - Hilton Dubai</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            color: #000;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #002e5b;
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #5a5a5a;
+            font-size: 14px;
+            margin-bottom: 40px;
+        }
+
+        .restaurant-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 40px;
+        }
+
+        .restaurant {
+            width: 500px;
+            text-align: left;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .restaurant img {
+            width: 100%;
+            height: auto;
+        }
+
+        .restaurant-content {
+            padding: 20px;
+        }
+
+        .restaurant h2 {
+            font-size: 20px;
+            margin-top: 0;
+        }
+
+        .restaurant p {
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        .location {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .icons {
+            margin-top: 15px;
+        }
+
+        .icons img {
+            width: 20px;
+            margin-right: 10px;
+        }
+ @media (max-width: 768px) {
+            .restaurant {
+                flex-direction: column;
+            }
+
+            .restaurant img,
+            .restaurant-content {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Restaurants & Bars</h1>
+    <p class="subtitle">Experience a world of flavours at Hilton Dubai Jumeirah & Hilton Dubai The Walk</p>
+
+    <div class="restaurant-grid">
+        <!-- Villa Verona -->
+        <div class="restaurant">
+            <img src="https://via.placeholder.com/500x300?text=Villa+Verona" alt="Villa Verona">
+            <div class="restaurant-content">
+                <h2>Villa Verona</h2>
+                <p>Offers authentic Italian cuisine, featuring fresh ingredients, traditional flavors, and stunning sea views.</p>
+                <p><strong>Opening hours:</strong><br>
+                    Monday - Friday: 12:30pm - 10:30pm<br>
+                    Saturday & Sunday:<br>
+                    Lunch - 12:30pm - 4:00pm<br>
+                    Dinner - 6:30pm - 10:30pm</p>
+                <p class="location">Location: Ground Floor – Hilton Dubai Jumeirah</p>
+                <div class="icons">
+                    <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram">
+                    <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook">
+                </div>
+            </div>
+        </div>
+
+        <!-- Trader Vic’s JBR -->
+        <div class="restaurant">
+            <img src="https://via.placeholder.com/500x300?text=Trader+Vic's+JBR" alt="Trader Vic’s JBR">
+            <div class="restaurant-content">
+                <h2>Trader Vic’s JBR</h2>
+                <p>Tropical drinks, fusion bites, island vibes.</p>
+                <p><strong>Opening hours:</strong><br>
+                    Sunday - Thursday: 5:00pm - 1:00am<br>
+                    Friday - Monday: 5:00pm - 2:00am</p>
+                <p class="location">Location: Mezzanine Floor – Hilton Dubai Jumeirah</p>
+                <div class="icons">
+                    <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram">
+                    <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

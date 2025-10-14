@@ -1,0 +1,76 @@
+.info {
+      max-width: 1400px;
+      margin: 10px auto;
+      display: flex;
+      background-color: #fff;
+      box-shadow: 0 0 20px rgba(0,0,0,0.05);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+	.text-section {
+      flex: 1;
+      padding: 200px;
+	  padding-top: 0;
+	  padding-bottom:100;
+    }
+
+    .text-section h2 {
+      color: #002855;
+      font-size: 28px;
+      margin-bottom: 30px;
+    }
+
+    .text-section h3 {
+      font-size: 20px;
+      margin-top: 30px;
+      margin-bottom: 10px;
+      color: #000;
+    }
+
+    .text-section p {
+      line-height: 1.6;
+      color: #333;
+      font-size: 15px;
+    }
+
+    .text-section p.note {
+      font-style: italic;
+      font-weight: 600;
+      margin-top: 20px;
+    }
+	.btn {
+	  display: inline-block;
+	  margin-top: 30px;
+	  background-color: #003366;
+	  color: white;
+	  text-decoration: none;
+	  padding: 14px 0;
+	  border-radius: 4px;
+	  font-size: 16px;
+	  width: 180px;          /* Fixed width */
+	  text-align: center;    /* Centers text inside */
+	  transition: background-color 0.3s;
+	}
+
+	.btn:hover {
+	  background-color: #001f4d;
+	}
+	 .image-section {
+      flex: 1;
+      background-image: url('download.jpg'); /* Replace with your image */
+      background-size: cover;
+      background-position: center;
+	  high:50px;
+    }
+
+    @media (max-width: 200px) {
+      .info {
+        flex-direction: column;
+      }
+      .image-section {
+        height: 50px;
+      }
+      .text-section {
+        padding: 10px 25px;
+      }
+    }
