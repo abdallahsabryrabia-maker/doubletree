@@ -136,10 +136,13 @@ body{
    Meetings grid
    ============================= */
 .meetings{ padding:48px 0; }
-.meeting-grid{ display:grid; grid-template-columns:repeat(2, minmax(260px,1fr)); gap:20px; }
-.meeting{ background:var(--card); padding:12px; border-radius:10px; box-shadow:0 6px 18px rgba(0,0,0,0.06); }
-.meeting img{ width:100%; height:180px; object-fit:cover; border-radius:8px; margin-bottom:10px; }
+.meetings .subtitle{ text-align:center; color:var(--muted); margin-bottom:22px; }
+.meeting-grid{ display:grid; grid-template-columns:repeat(2, minmax(260px,1fr)); gap:20px;align-items:start; }
+.meeting{ background:var(--card); padding:12px; border-radius:10px; box-shadow:0 6px 18px rgba(0,0,0,0.06); display: flex;}
+.meeting-text{flex:1; margin-left:10px;}
+.meeting img{ width:250px; height:200px; object-fit:cover; border-radius:8px; margin-bottom:10px; }
 .meeting h4{ color:var(--brand); margin-bottom:8px; }
+.meetings h3{text-align:center;}
 
 /* =============================
    Dining grid
@@ -192,7 +195,7 @@ copyright{ display:block; margin-top:12px; }
   .dining-grid{ grid-template-columns:repeat(2, minmax(220px,1fr)); }
   .prom-grid{ grid-template-columns:repeat(2, minmax(220px,1fr)); }
   .benefit-grid{ grid-template-columns:repeat(2, minmax(200px,1fr)); }
-  .meeting-grid{ grid-template-columns:repeat(2, minmax(200px,1fr)); }
+  .meeting-grid{ grid-template-columns:repeat(2, minmax(200px,1fr));flex-direction: column; }
 }
 @media (max-width:760px){
   .hero h2{ font-size:26px; }
