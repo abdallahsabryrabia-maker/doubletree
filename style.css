@@ -143,6 +143,22 @@ body{
 .meeting img{ width:250px; height:200px; object-fit:cover; border-radius:8px; margin-bottom:10px; }
 .meeting h4{ color:var(--brand); margin-bottom:8px; }
 .meetings h3{text-align:center;}
+@media (max-width: 1024px) {
+  .service {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .service img {
+    width: 100%;
+    height: 200px;
+  }
+
+  .service-text {
+    padding-top: 12px;
+  }
+}
+
 
 /* =============================
    Dining grid
