@@ -94,10 +94,11 @@ body{
    Info / Two-column
    ============================= */
 .info{ padding:48px 0; }
-.info-card{ display:flex; gap:28px; align-items:stretch; flex-wrap:wrap; justify-content:center; }
-.text-section{ flex:1 1 480px; background:var(--card); padding:28px; border-radius:10px; box-shadow:0 6px 18px rgba(0,0,0,0.06); }
+.info-card{ display:flex; gap:28px; align-items:stretch; flex-wrap:wrap; justify-content:center;background:var(--card);border-radius:10px; box-shadow:0 6px 18px rgba(0,0,0,0.06);}
+.text-section{ flex:1 1 480px; background:var(--card); padding:28px; border-radius:10px;   }
 .text-section h3{ color:var(--brand); font-size:22px; margin-bottom:10px; font-family:"Gabriola", serif; }
 .text-section h4{ color:#014080; margin-top:12px; margin-bottom:8px; font-size:16px; }
+.text-section h5{color:#014080; margin-top:12px; margin-bottom:8px; font-size:14px;font-style: italic;}
 .text-section p{ font-size:16px; color:#333; margin-bottom:8px; }
 .image-section{ flex:1 1 360px; max-width:520px; }
 .image-section img{ width:100%; border-radius:10px; display:block; }
@@ -108,12 +109,14 @@ body{
 .services{ padding:48px 0; background:#fff; }
 .services h3{ text-align:center; font-family:"Gabriola", serif; color:var(--brand); margin-bottom:6px; }
 .services .subtitle{ text-align:center; color:var(--muted); margin-bottom:22px; }
-.service-grid{ display:grid; grid-template-columns:repeat(3, minmax(220px,1fr)); gap:20px; align-items:start; }
-.service{ background:var(--card); padding:14px; border-radius:10px; box-shadow:0 6px 18px rgba(0,0,0,0.06); text-align:left; }
-.service img{ width:100%; height:160px; object-fit:cover; border-radius:8px; margin-bottom:10px; }
+.service-grid{ display:grid;  gap:20px; align-items:start;grid-template-columns:repeat(2, minmax(260px,1fr)); }
+.service{ background:var(--card); padding:14px; border-radius:10px; box-shadow:0 6px 18px rgba(0,0,0,0.06); text-align:left; display: flex;}
+.service-text{flex:1; margin-left:10px;}
+.service img{ width:250px; height:250px; object-fit:cover; border-radius:8px; margin-bottom:10px; }
 .service h4{ color:var(--brand); margin-bottom:8px; }
-.service p{ color:#444; font-size:15px; margin-bottom:6px; }
+.service p{ color:#444; font-size:16px; margin-bottom:6px; }
 .service .meta{ font-size:13px; color:var(--muted); }
+
 
 /* =============================
    Meetings grid
