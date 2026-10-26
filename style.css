@@ -67,6 +67,8 @@ body{
   border-radius:6px;
   text-decoration:none;
   cursor:pointer;
+  font-weight:bold;
+  font-size:22px;
 }
 .btn.primary{ background:var(--accent); color:var(--brand); font-weight:700; }
 .btn.secondary{ background:transparent; color:#fff; border:1px solid #fff; }
@@ -78,10 +80,10 @@ body{
 .manager-card{ display:flex; gap:300px;  flex-wrap:wrap; background:white; }
 .manager-text{ flex:1 1 420px; max-width:900px; padding:0 6px; margin-top:50px; }
 .manager-text h3{ font-size:28px; color:var(--brand); margin-bottom:14px; font-family:"Gabriola", serif; margin-left:0;}
-.manager-text p{ font-size:24px; margin-bottom:12px; margin-left:0; margin-top:0;}
+.manager-text p{ font-size:22px; margin-bottom:12px; margin-left:0; margin-top:0;font-weight:bold;}
 .manager-text .gm{ margin-top:8px; font-size:22px; color:var(--brand); }
-.manager-image{ flex:0 1 560px; max-width:660px; }
-.manager-image img{ width:100%; border-radius:12px; display:block; }
+.manager-image{ flex:0 1 600px; max-width:700px; }
+.manager-image img{ width:100%; height:650px;border-radius:12px; display:block; }
 
 /* =============================
    Guide
@@ -106,9 +108,9 @@ body{
 .info-card{ margin-right:150px; margin-left: auto;  width:1900px;height:850px;display:flex; gap:250px; align-items:stretch; flex-wrap:wrap; justify-content:center;background:var(--card);border-radius:10px; box-shadow:0 6px 18px rgba(0,0,0,0.06);}
 .text-section{ margin-left:350px;height:850px;flex:1 1 480px; background:var(--card); padding:28px; border-radius:10px;   }
 .text-section h3{ color:var(--brand); font-size:40px; margin-bottom:10px; font-family:"Gabriola", serif; }
-.text-section h4{ color:#014080; margin-top:12px; margin-bottom:8px; font-size:20px; }
-.text-section h5{color:#014080; margin-top:12px; margin-bottom:8px; font-size:20px;font-style: italic;}
-.text-section p{ font-size:20px; color:#333; margin-bottom:8px; }
+.text-section h4{ color:#014080; margin-top:12px; margin-bottom:8px; font-size:21px; }
+.text-section h5{color:#014080; margin-top:12px; margin-bottom:8px; font-size:21px;font-style: italic;}
+.text-section p{ font-size:21px; color:#333; margin-bottom:8px; }
 .image-section{ height:850px;flex:1 1 360px; max-width:720px; }
 .image-section img{ height:850px;width:100%; border-radius:10px; display:block; }
 
@@ -157,7 +159,7 @@ body{
 .meeting img{ width:400px; height:350px; object-fit:cover; border-radius:8px; margin-bottom:10px; }
 .meeting h4{ color:var(--brand); margin-bottom:8px;font-size:20px; }
 .meetings h3{text-align:center; color:var(--brand);font-size:40px;}
-.meeting p{font-size:20px;}
+.meeting p{font-size:20px;color:black;}
 
 @media (max-width: 1024px) {
   .meeting {
